@@ -14,7 +14,7 @@ connectMongoDB();
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://mern-stack-tech-courses-frontend.vercel.app",
   })
 );
 
